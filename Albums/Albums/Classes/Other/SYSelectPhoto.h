@@ -12,8 +12,8 @@ typedef void(^SendPhotoBlock)(NSMutableArray *photoArray);
 typedef void(^SendPhotoListBlock)(ALAssetsGroup *assetsGroup);
 
 typedef enum {
-    SelectOnlyList,
-    SelectWithPhoto
+    PhotoSelectOnlyList,
+    PhotoSelectWithPhoto
 }PhotoSelectStyle;
 @interface SYSelectPhoto : NSObject
 @property (nonatomic,strong)NSMutableArray *allPhoto;
