@@ -29,7 +29,7 @@ static ALAssetsLibrary *shareAssertsLibrary;
 - (void)getPhotoLibraryGroup:(ALAssetsGroupType)groupType :(PhotoSelectStyle)style
 {
     ALAssetsLibraryGroupsEnumerationResultsBlock librarygroupBlock = ^(ALAssetsGroup *group, BOOL *stop){
-        if (style == SelectWithPhoto) {
+        if (style == PhotoSelectWithPhoto) {
             if ([group numberOfAssets]) {
                 [self getAllPhoto:group];
             }

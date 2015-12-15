@@ -33,7 +33,7 @@
         [_photoListTableView reloadData];
 
     };
-    [syphoto getPhotoLibraryGroup:ALAssetsGroupAll :SelectOnlyList ];
+    [syphoto getPhotoLibraryGroup:ALAssetsGroupAll :PhotoSelectOnlyList ];
     
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

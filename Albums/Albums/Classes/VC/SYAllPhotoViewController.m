@@ -43,7 +43,7 @@
     };
     
     if (_assetsGroup==nil) {
-        [syphoto getPhotoLibraryGroup:ALAssetsGroupAll :SelectWithPhoto];
+        [syphoto getPhotoLibraryGroup:ALAssetsGroupAll :PhotoSelectWithPhoto];
     }
     else{
         [syphoto getAllPhoto:_assetsGroup];
